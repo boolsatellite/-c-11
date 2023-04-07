@@ -1,0 +1,3 @@
+/mnt/e/code/cpp/cpp11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/e/code/cpp/cpp11/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/e/code/cpp/cpp11/cmake-build-debug/CMakeFiles/cpp11.dir
