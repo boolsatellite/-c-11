@@ -19,8 +19,9 @@ public:
 private:
     int a;
     const static int b=0;
-    int c=1;             //成员，无法通过编译
-    static int d=0;       //成员，无法通过编译
+    int c=1;                //成员，无法通过编译
+    static int d=0;         //成员，无法通过编译 , 静态非常量 ， 无论c++11 都需要在类外初始化，一般位于 .cpp 文件中，
+                            //这会保证编译时，类静态成员的定义最后只存在于一个目标文件中
     static const double e=1.3;    //非整型或者枚举，无法通过编译
     static const char*const f="e";//非整型或者枚举，无法通过编译
 };*/
@@ -126,3 +127,13 @@ private:
     Mem mem{0};
     string name{"Group"};
 };
+
+/*值得注意的是，对于非常量的静态成员变量，C++11则与
+C++98保持了一致。程序员还是需要到头文件以外去定义它，这会保
+证编译时，类静态成员的定义最后只存在于一个目标文件中*/
+
+struct Node
+{
+    static int a ;
+};
+int Node::a = 2;
