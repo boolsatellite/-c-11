@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/2.noexcept.cpp.o"
+  "CMakeFiles/cpp11.dir/3.init.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )

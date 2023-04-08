@@ -150,8 +150,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/mnt/e/code/cpp/cpp11/cmake-build-debug",
-		"source" : "/mnt/e/code/cpp/cpp11"
+		"build" : "/mnt/e/code/cpp/-c-11/cmake-build-debug",
+		"source" : "/mnt/e/code/cpp/-c-11"
 	},
 	"version" : 
 	{
