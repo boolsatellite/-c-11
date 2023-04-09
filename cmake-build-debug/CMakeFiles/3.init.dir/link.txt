@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/3.init.dir/3.init.cpp.o CMakeFiles/3.init.dir/expend_friend.cpp.o  -o 3.init 

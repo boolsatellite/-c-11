@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cpp11"
+			"path" : "3.init"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 12,
 				"parent" : 0
 			}
 		]
@@ -44,11 +44,12 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "cpp11::@6890427a1f51a3e7e1df",
+	"id" : "3.init::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -64,8 +65,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "cpp11",
-	"nameOnDisk" : "cpp11",
+	"name" : "3.init",
+	"nameOnDisk" : "3.init",
 	"paths" : 
 	{
 		"build" : ".",
@@ -77,7 +78,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -87,6 +89,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "3.init.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "expend_friend.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

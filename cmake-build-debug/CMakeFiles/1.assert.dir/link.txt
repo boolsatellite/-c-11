@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1.assert.dir/1.assert.cpp.o CMakeFiles/1.assert.dir/expend_friend.cpp.o  -o 1.assert 

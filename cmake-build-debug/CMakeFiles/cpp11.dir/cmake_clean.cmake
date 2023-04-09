@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/3.init.cpp.o"
+  "CMakeFiles/cpp11.dir/4.snotstatic_member_sizeof.cpp.o"
+  "CMakeFiles/cpp11.dir/5.expand.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/expend_friend.dir/expend_friend.cpp.o  -o expend_friend 

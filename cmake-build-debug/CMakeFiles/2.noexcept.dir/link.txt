@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/2.noexcept.dir/2.noexcept.cpp.o CMakeFiles/2.noexcept.dir/expend_friend.cpp.o  -o 2.noexcept 
