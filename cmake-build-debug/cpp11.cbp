@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,30 +27,18 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="expend_friend">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/expend_friend" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 expend_friend"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="expend_friend/fast">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/expend_friend" prefix_auto="0" extension_auto="0"/>
+			<Target title="cpp11">
+				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/cpp11" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,14 +53,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 expend_friend/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp11"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="4.snotstatic_member_sizeof">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/4.snotstatic_member_sizeof" prefix_auto="0" extension_auto="0"/>
+			<Target title="cpp11/fast">
+				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/cpp11" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -97,185 +75,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.snotstatic_member_sizeof"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="4.snotstatic_member_sizeof/fast">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/4.snotstatic_member_sizeof" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 4.snotstatic_member_sizeof/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="3.init">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/3.init" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.init"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="3.init/fast">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/3.init" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 3.init/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2.noexcept">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/2.noexcept" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 2.noexcept"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="2.noexcept/fast">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/2.noexcept" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 2.noexcept/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1.assert">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/1.assert" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.assert"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1.assert/fast">
-				<Option output="/mnt/e/code/cpp/-c-11/cmake-build-debug/1.assert" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/e/code/cpp/-c-11/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.assert/fast"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp11/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/e/code/cpp/-c-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/e/code/cpp/-c-11/1.assert.cpp">
-			<Option target="1.assert"/>
-		</Unit>
-		<Unit filename="/mnt/e/code/cpp/-c-11/2.noexcept.cpp">
-			<Option target="2.noexcept"/>
-		</Unit>
-		<Unit filename="/mnt/e/code/cpp/-c-11/3.init.cpp">
-			<Option target="3.init"/>
-		</Unit>
-		<Unit filename="/mnt/e/code/cpp/-c-11/4.snotstatic_member_sizeof.cpp">
-			<Option target="4.snotstatic_member_sizeof"/>
-		</Unit>
-		<Unit filename="/mnt/e/code/cpp/-c-11/expend_friend.cpp">
-			<Option target="expend_friend"/>
-			<Option target="4.snotstatic_member_sizeof"/>
-			<Option target="3.init"/>
-			<Option target="2.noexcept"/>
-			<Option target="1.assert"/>
+		<Unit filename="/mnt/e/code/cpp/-c-11/5.final_override.cpp">
+			<Option target="cpp11"/>
 		</Unit>
 		<Unit filename="/mnt/e/code/cpp/-c-11/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

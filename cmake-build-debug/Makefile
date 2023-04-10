@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /mnt/e/code/cpp/-c-11/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,216 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named expend_friend
+# Target rules for targets named cpp11
 
 # Build rule for target.
-expend_friend: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 expend_friend
-.PHONY : expend_friend
+cpp11: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cpp11
+.PHONY : cpp11
 
 # fast build rule for target.
-expend_friend/fast:
-	$(MAKE) -f CMakeFiles/expend_friend.dir/build.make CMakeFiles/expend_friend.dir/build
-.PHONY : expend_friend/fast
+cpp11/fast:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/build
+.PHONY : cpp11/fast
 
-#=============================================================================
-# Target rules for targets named 4.snotstatic_member_sizeof
+5.final_override.o: 5.final_override.cpp.o
 
-# Build rule for target.
-4.snotstatic_member_sizeof: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4.snotstatic_member_sizeof
-.PHONY : 4.snotstatic_member_sizeof
-
-# fast build rule for target.
-4.snotstatic_member_sizeof/fast:
-	$(MAKE) -f CMakeFiles/4.snotstatic_member_sizeof.dir/build.make CMakeFiles/4.snotstatic_member_sizeof.dir/build
-.PHONY : 4.snotstatic_member_sizeof/fast
-
-#=============================================================================
-# Target rules for targets named 3.init
-
-# Build rule for target.
-3.init: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 3.init
-.PHONY : 3.init
-
-# fast build rule for target.
-3.init/fast:
-	$(MAKE) -f CMakeFiles/3.init.dir/build.make CMakeFiles/3.init.dir/build
-.PHONY : 3.init/fast
-
-#=============================================================================
-# Target rules for targets named 2.noexcept
-
-# Build rule for target.
-2.noexcept: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 2.noexcept
-.PHONY : 2.noexcept
-
-# fast build rule for target.
-2.noexcept/fast:
-	$(MAKE) -f CMakeFiles/2.noexcept.dir/build.make CMakeFiles/2.noexcept.dir/build
-.PHONY : 2.noexcept/fast
-
-#=============================================================================
-# Target rules for targets named 1.assert
-
-# Build rule for target.
-1.assert: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1.assert
-.PHONY : 1.assert
-
-# fast build rule for target.
-1.assert/fast:
-	$(MAKE) -f CMakeFiles/1.assert.dir/build.make CMakeFiles/1.assert.dir/build
-.PHONY : 1.assert/fast
-
-1.assert.o: 1.assert.cpp.o
-
-.PHONY : 1.assert.o
+.PHONY : 5.final_override.o
 
 # target to build an object file
-1.assert.cpp.o:
-	$(MAKE) -f CMakeFiles/1.assert.dir/build.make CMakeFiles/1.assert.dir/1.assert.cpp.o
-.PHONY : 1.assert.cpp.o
+5.final_override.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/5.final_override.cpp.o
+.PHONY : 5.final_override.cpp.o
 
-1.assert.i: 1.assert.cpp.i
+5.final_override.i: 5.final_override.cpp.i
 
-.PHONY : 1.assert.i
-
-# target to preprocess a source file
-1.assert.cpp.i:
-	$(MAKE) -f CMakeFiles/1.assert.dir/build.make CMakeFiles/1.assert.dir/1.assert.cpp.i
-.PHONY : 1.assert.cpp.i
-
-1.assert.s: 1.assert.cpp.s
-
-.PHONY : 1.assert.s
-
-# target to generate assembly for a file
-1.assert.cpp.s:
-	$(MAKE) -f CMakeFiles/1.assert.dir/build.make CMakeFiles/1.assert.dir/1.assert.cpp.s
-.PHONY : 1.assert.cpp.s
-
-2.noexcept.o: 2.noexcept.cpp.o
-
-.PHONY : 2.noexcept.o
-
-# target to build an object file
-2.noexcept.cpp.o:
-	$(MAKE) -f CMakeFiles/2.noexcept.dir/build.make CMakeFiles/2.noexcept.dir/2.noexcept.cpp.o
-.PHONY : 2.noexcept.cpp.o
-
-2.noexcept.i: 2.noexcept.cpp.i
-
-.PHONY : 2.noexcept.i
+.PHONY : 5.final_override.i
 
 # target to preprocess a source file
-2.noexcept.cpp.i:
-	$(MAKE) -f CMakeFiles/2.noexcept.dir/build.make CMakeFiles/2.noexcept.dir/2.noexcept.cpp.i
-.PHONY : 2.noexcept.cpp.i
+5.final_override.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/5.final_override.cpp.i
+.PHONY : 5.final_override.cpp.i
 
-2.noexcept.s: 2.noexcept.cpp.s
+5.final_override.s: 5.final_override.cpp.s
 
-.PHONY : 2.noexcept.s
-
-# target to generate assembly for a file
-2.noexcept.cpp.s:
-	$(MAKE) -f CMakeFiles/2.noexcept.dir/build.make CMakeFiles/2.noexcept.dir/2.noexcept.cpp.s
-.PHONY : 2.noexcept.cpp.s
-
-3.init.o: 3.init.cpp.o
-
-.PHONY : 3.init.o
-
-# target to build an object file
-3.init.cpp.o:
-	$(MAKE) -f CMakeFiles/3.init.dir/build.make CMakeFiles/3.init.dir/3.init.cpp.o
-.PHONY : 3.init.cpp.o
-
-3.init.i: 3.init.cpp.i
-
-.PHONY : 3.init.i
-
-# target to preprocess a source file
-3.init.cpp.i:
-	$(MAKE) -f CMakeFiles/3.init.dir/build.make CMakeFiles/3.init.dir/3.init.cpp.i
-.PHONY : 3.init.cpp.i
-
-3.init.s: 3.init.cpp.s
-
-.PHONY : 3.init.s
+.PHONY : 5.final_override.s
 
 # target to generate assembly for a file
-3.init.cpp.s:
-	$(MAKE) -f CMakeFiles/3.init.dir/build.make CMakeFiles/3.init.dir/3.init.cpp.s
-.PHONY : 3.init.cpp.s
-
-4.snotstatic_member_sizeof.o: 4.snotstatic_member_sizeof.cpp.o
-
-.PHONY : 4.snotstatic_member_sizeof.o
-
-# target to build an object file
-4.snotstatic_member_sizeof.cpp.o:
-	$(MAKE) -f CMakeFiles/4.snotstatic_member_sizeof.dir/build.make CMakeFiles/4.snotstatic_member_sizeof.dir/4.snotstatic_member_sizeof.cpp.o
-.PHONY : 4.snotstatic_member_sizeof.cpp.o
-
-4.snotstatic_member_sizeof.i: 4.snotstatic_member_sizeof.cpp.i
-
-.PHONY : 4.snotstatic_member_sizeof.i
-
-# target to preprocess a source file
-4.snotstatic_member_sizeof.cpp.i:
-	$(MAKE) -f CMakeFiles/4.snotstatic_member_sizeof.dir/build.make CMakeFiles/4.snotstatic_member_sizeof.dir/4.snotstatic_member_sizeof.cpp.i
-.PHONY : 4.snotstatic_member_sizeof.cpp.i
-
-4.snotstatic_member_sizeof.s: 4.snotstatic_member_sizeof.cpp.s
-
-.PHONY : 4.snotstatic_member_sizeof.s
-
-# target to generate assembly for a file
-4.snotstatic_member_sizeof.cpp.s:
-	$(MAKE) -f CMakeFiles/4.snotstatic_member_sizeof.dir/build.make CMakeFiles/4.snotstatic_member_sizeof.dir/4.snotstatic_member_sizeof.cpp.s
-.PHONY : 4.snotstatic_member_sizeof.cpp.s
-
-expend_friend.o: expend_friend.cpp.o
-
-.PHONY : expend_friend.o
-
-# target to build an object file
-expend_friend.cpp.o:
-	$(MAKE) -f CMakeFiles/expend_friend.dir/build.make CMakeFiles/expend_friend.dir/expend_friend.cpp.o
-	$(MAKE) -f CMakeFiles/4.snotstatic_member_sizeof.dir/build.make CMakeFiles/4.snotstatic_member_sizeof.dir/expend_friend.cpp.o
-	$(MAKE) -f CMakeFiles/3.init.dir/build.make CMakeFiles/3.init.dir/expend_friend.cpp.o
-	$(MAKE) -f CMakeFiles/2.noexcept.dir/build.make CMakeFiles/2.noexcept.dir/expend_friend.cpp.o
-	$(MAKE) -f CMakeFiles/1.assert.dir/build.make CMakeFiles/1.assert.dir/expend_friend.cpp.o
-.PHONY : expend_friend.cpp.o
-
-expend_friend.i: expend_friend.cpp.i
-
-.PHONY : expend_friend.i
-
-# target to preprocess a source file
-expend_friend.cpp.i:
-	$(MAKE) -f CMakeFiles/expend_friend.dir/build.make CMakeFiles/expend_friend.dir/expend_friend.cpp.i
-	$(MAKE) -f CMakeFiles/4.snotstatic_member_sizeof.dir/build.make CMakeFiles/4.snotstatic_member_sizeof.dir/expend_friend.cpp.i
-	$(MAKE) -f CMakeFiles/3.init.dir/build.make CMakeFiles/3.init.dir/expend_friend.cpp.i
-	$(MAKE) -f CMakeFiles/2.noexcept.dir/build.make CMakeFiles/2.noexcept.dir/expend_friend.cpp.i
-	$(MAKE) -f CMakeFiles/1.assert.dir/build.make CMakeFiles/1.assert.dir/expend_friend.cpp.i
-.PHONY : expend_friend.cpp.i
-
-expend_friend.s: expend_friend.cpp.s
-
-.PHONY : expend_friend.s
-
-# target to generate assembly for a file
-expend_friend.cpp.s:
-	$(MAKE) -f CMakeFiles/expend_friend.dir/build.make CMakeFiles/expend_friend.dir/expend_friend.cpp.s
-	$(MAKE) -f CMakeFiles/4.snotstatic_member_sizeof.dir/build.make CMakeFiles/4.snotstatic_member_sizeof.dir/expend_friend.cpp.s
-	$(MAKE) -f CMakeFiles/3.init.dir/build.make CMakeFiles/3.init.dir/expend_friend.cpp.s
-	$(MAKE) -f CMakeFiles/2.noexcept.dir/build.make CMakeFiles/2.noexcept.dir/expend_friend.cpp.s
-	$(MAKE) -f CMakeFiles/1.assert.dir/build.make CMakeFiles/1.assert.dir/expend_friend.cpp.s
-.PHONY : expend_friend.cpp.s
+5.final_override.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/5.final_override.cpp.s
+.PHONY : 5.final_override.cpp.s
 
 # Help Target
 help:
@@ -328,28 +156,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... expend_friend"
-	@echo "... 4.snotstatic_member_sizeof"
-	@echo "... 3.init"
-	@echo "... 2.noexcept"
-	@echo "... 1.assert"
-	@echo "... 1.assert.o"
-	@echo "... 1.assert.i"
-	@echo "... 1.assert.s"
-	@echo "... 2.noexcept.o"
-	@echo "... 2.noexcept.i"
-	@echo "... 2.noexcept.s"
-	@echo "... 3.init.o"
-	@echo "... 3.init.i"
-	@echo "... 3.init.s"
-	@echo "... 4.snotstatic_member_sizeof.o"
-	@echo "... 4.snotstatic_member_sizeof.i"
-	@echo "... 4.snotstatic_member_sizeof.s"
-	@echo "... expend_friend.o"
-	@echo "... expend_friend.i"
-	@echo "... expend_friend.s"
+	@echo "... edit_cache"
+	@echo "... cpp11"
+	@echo "... 5.final_override.o"
+	@echo "... 5.final_override.i"
+	@echo "... 5.final_override.s"
 .PHONY : help
 
 
