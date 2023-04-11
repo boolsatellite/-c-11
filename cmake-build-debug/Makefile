@@ -150,6 +150,33 @@ cpp11/fast:
 	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/6.template_function_default_parameters.cpp.s
 .PHONY : 6.template_function_default_parameters.cpp.s
 
+7.extenal_template.o: 7.extenal_template.cpp.o
+
+.PHONY : 7.extenal_template.o
+
+# target to build an object file
+7.extenal_template.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/7.extenal_template.cpp.o
+.PHONY : 7.extenal_template.cpp.o
+
+7.extenal_template.i: 7.extenal_template.cpp.i
+
+.PHONY : 7.extenal_template.i
+
+# target to preprocess a source file
+7.extenal_template.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/7.extenal_template.cpp.i
+.PHONY : 7.extenal_template.cpp.i
+
+7.extenal_template.s: 7.extenal_template.cpp.s
+
+.PHONY : 7.extenal_template.s
+
+# target to generate assembly for a file
+7.extenal_template.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/7.extenal_template.cpp.s
+.PHONY : 7.extenal_template.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... 6.template_function_default_parameters.o"
 	@echo "... 6.template_function_default_parameters.i"
 	@echo "... 6.template_function_default_parameters.s"
+	@echo "... 7.extenal_template.o"
+	@echo "... 7.extenal_template.i"
+	@echo "... 7.extenal_template.s"
 .PHONY : help
 
 

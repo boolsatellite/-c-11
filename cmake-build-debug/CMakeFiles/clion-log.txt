@@ -1,4 +1,16 @@
 C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/e/code/cpp/-c-11/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/e/code/cpp/-c-11 -B /mnt/e/code/cpp/-c-11/cmake-build-debug; exitcode=$?; sleep 0.001; (exit $exitcode)"
 -- Configuring done
--- Generating done
--- Build files have been written to: /mnt/e/code/cpp/-c-11/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    7.extenal_template.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: cpp11
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
