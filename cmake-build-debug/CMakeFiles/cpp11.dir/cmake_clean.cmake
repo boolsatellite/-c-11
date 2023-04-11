@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/5.final_override.cpp.o"
+  "CMakeFiles/cpp11.dir/6.template_function_default_parameters.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )
