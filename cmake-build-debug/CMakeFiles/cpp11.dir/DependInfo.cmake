@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/e/code/cpp/-c-11/6.template_function_default_parameters.cpp" "/mnt/e/code/cpp/-c-11/cmake-build-debug/CMakeFiles/cpp11.dir/6.template_function_default_parameters.cpp.o"
-  "/mnt/e/code/cpp/-c-11/7.extenal_template.cpp" "/mnt/e/code/cpp/-c-11/cmake-build-debug/CMakeFiles/cpp11.dir/7.extenal_template.cpp.o"
+  "/mnt/e/code/cpp/-c-11/8.inherited_constructor.cpp" "/mnt/e/code/cpp/-c-11/cmake-build-debug/CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

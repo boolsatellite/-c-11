@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/6.template_function_default_parameters.cpp.o"
-  "CMakeFiles/cpp11.dir/7.extenal_template.cpp.o"
+  "CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )

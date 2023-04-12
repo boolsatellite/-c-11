@@ -123,59 +123,32 @@ cpp11/fast:
 	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/build
 .PHONY : cpp11/fast
 
-6.template_function_default_parameters.o: 6.template_function_default_parameters.cpp.o
+8.inherited_constructor.o: 8.inherited_constructor.cpp.o
 
-.PHONY : 6.template_function_default_parameters.o
-
-# target to build an object file
-6.template_function_default_parameters.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/6.template_function_default_parameters.cpp.o
-.PHONY : 6.template_function_default_parameters.cpp.o
-
-6.template_function_default_parameters.i: 6.template_function_default_parameters.cpp.i
-
-.PHONY : 6.template_function_default_parameters.i
-
-# target to preprocess a source file
-6.template_function_default_parameters.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/6.template_function_default_parameters.cpp.i
-.PHONY : 6.template_function_default_parameters.cpp.i
-
-6.template_function_default_parameters.s: 6.template_function_default_parameters.cpp.s
-
-.PHONY : 6.template_function_default_parameters.s
-
-# target to generate assembly for a file
-6.template_function_default_parameters.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/6.template_function_default_parameters.cpp.s
-.PHONY : 6.template_function_default_parameters.cpp.s
-
-7.extenal_template.o: 7.extenal_template.cpp.o
-
-.PHONY : 7.extenal_template.o
+.PHONY : 8.inherited_constructor.o
 
 # target to build an object file
-7.extenal_template.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/7.extenal_template.cpp.o
-.PHONY : 7.extenal_template.cpp.o
+8.inherited_constructor.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.o
+.PHONY : 8.inherited_constructor.cpp.o
 
-7.extenal_template.i: 7.extenal_template.cpp.i
+8.inherited_constructor.i: 8.inherited_constructor.cpp.i
 
-.PHONY : 7.extenal_template.i
+.PHONY : 8.inherited_constructor.i
 
 # target to preprocess a source file
-7.extenal_template.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/7.extenal_template.cpp.i
-.PHONY : 7.extenal_template.cpp.i
+8.inherited_constructor.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.i
+.PHONY : 8.inherited_constructor.cpp.i
 
-7.extenal_template.s: 7.extenal_template.cpp.s
+8.inherited_constructor.s: 8.inherited_constructor.cpp.s
 
-.PHONY : 7.extenal_template.s
+.PHONY : 8.inherited_constructor.s
 
 # target to generate assembly for a file
-7.extenal_template.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/7.extenal_template.cpp.s
-.PHONY : 7.extenal_template.cpp.s
+8.inherited_constructor.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.s
+.PHONY : 8.inherited_constructor.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp11"
-	@echo "... 6.template_function_default_parameters.o"
-	@echo "... 6.template_function_default_parameters.i"
-	@echo "... 6.template_function_default_parameters.s"
-	@echo "... 7.extenal_template.o"
-	@echo "... 7.extenal_template.i"
-	@echo "... 7.extenal_template.s"
+	@echo "... 8.inherited_constructor.o"
+	@echo "... 8.inherited_constructor.i"
+	@echo "... 8.inherited_constructor.s"
 .PHONY : help
 
 

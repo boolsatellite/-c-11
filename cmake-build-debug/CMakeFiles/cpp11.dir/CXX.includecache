@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/code/cpp/-c-11/4.snotstatic_member_sizeof.cpp
+/mnt/e/code/cpp/-c-11/8.inherited_constructor.cpp
 iostream
--
+/mnt/e/code/cpp/-c-11/iostream
 

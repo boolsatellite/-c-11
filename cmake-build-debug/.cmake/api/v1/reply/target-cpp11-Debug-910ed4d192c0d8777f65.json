@@ -44,8 +44,7 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -78,8 +77,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -88,13 +86,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "6.template_function_default_parameters.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "7.extenal_template.cpp",
+			"path" : "8.inherited_constructor.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
