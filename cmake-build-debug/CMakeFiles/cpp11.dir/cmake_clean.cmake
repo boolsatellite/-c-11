@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.o"
+  "CMakeFiles/cpp11.dir/9.delegate_constructor.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )

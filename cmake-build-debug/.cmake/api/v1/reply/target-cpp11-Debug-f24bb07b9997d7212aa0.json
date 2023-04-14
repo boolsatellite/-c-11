@@ -86,7 +86,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "8.inherited_constructor.cpp",
+			"path" : "9.delegate_constructor.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

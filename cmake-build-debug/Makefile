@@ -123,32 +123,32 @@ cpp11/fast:
 	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/build
 .PHONY : cpp11/fast
 
-8.inherited_constructor.o: 8.inherited_constructor.cpp.o
+9.delegate_constructor.o: 9.delegate_constructor.cpp.o
 
-.PHONY : 8.inherited_constructor.o
+.PHONY : 9.delegate_constructor.o
 
 # target to build an object file
-8.inherited_constructor.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.o
-.PHONY : 8.inherited_constructor.cpp.o
+9.delegate_constructor.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/9.delegate_constructor.cpp.o
+.PHONY : 9.delegate_constructor.cpp.o
 
-8.inherited_constructor.i: 8.inherited_constructor.cpp.i
+9.delegate_constructor.i: 9.delegate_constructor.cpp.i
 
-.PHONY : 8.inherited_constructor.i
+.PHONY : 9.delegate_constructor.i
 
 # target to preprocess a source file
-8.inherited_constructor.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.i
-.PHONY : 8.inherited_constructor.cpp.i
+9.delegate_constructor.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/9.delegate_constructor.cpp.i
+.PHONY : 9.delegate_constructor.cpp.i
 
-8.inherited_constructor.s: 8.inherited_constructor.cpp.s
+9.delegate_constructor.s: 9.delegate_constructor.cpp.s
 
-.PHONY : 8.inherited_constructor.s
+.PHONY : 9.delegate_constructor.s
 
 # target to generate assembly for a file
-8.inherited_constructor.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/8.inherited_constructor.cpp.s
-.PHONY : 8.inherited_constructor.cpp.s
+9.delegate_constructor.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp11.dir/build.make CMakeFiles/cpp11.dir/9.delegate_constructor.cpp.s
+.PHONY : 9.delegate_constructor.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp11"
-	@echo "... 8.inherited_constructor.o"
-	@echo "... 8.inherited_constructor.i"
-	@echo "... 8.inherited_constructor.s"
+	@echo "... 9.delegate_constructor.o"
+	@echo "... 9.delegate_constructor.i"
+	@echo "... 9.delegate_constructor.s"
 .PHONY : help
 
 

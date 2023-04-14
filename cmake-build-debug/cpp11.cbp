@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/e/code/cpp/-c-11/8.inherited_constructor.cpp">
+		<Unit filename="/mnt/e/code/cpp/-c-11/9.delegate_constructor.cpp">
 			<Option target="cpp11"/>
 		</Unit>
 		<Unit filename="/mnt/e/code/cpp/-c-11/CMakeLists.txt">
