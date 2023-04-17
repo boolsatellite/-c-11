@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/9.delegate_constructor.cpp.o"
+  "CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )

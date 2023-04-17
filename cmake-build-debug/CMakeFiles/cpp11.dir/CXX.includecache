@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/code/cpp/-c-11/9.delegate_constructor.cpp
+/mnt/e/code/cpp/-c-11/10.mobileSemantics_and_perfectForward.cpp
 iostream
 /mnt/e/code/cpp/-c-11/iostream
-list
+type_traits
+/mnt/e/code/cpp/-c-11/type_traits
+iostream
 -
-vector
+iostream
 -
-deque
+utility
 -
+iostream
+/mnt/e/code/cpp/-c-11/iostream
 
