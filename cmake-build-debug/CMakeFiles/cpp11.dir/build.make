@@ -57,27 +57,27 @@ include CMakeFiles/cpp11.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp11.dir/flags.make
 
-CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.o: CMakeFiles/cpp11.dir/flags.make
-CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.o: ../10.mobileSemantics_and_perfectForward.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/code/cpp/-c-11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.o -c /mnt/e/code/cpp/-c-11/10.mobileSemantics_and_perfectForward.cpp
+CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.o: CMakeFiles/cpp11.dir/flags.make
+CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.o: ../11.explicit_conversion_operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/e/code/cpp/-c-11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.o -c /mnt/e/code/cpp/-c-11/11.explicit_conversion_operator.cpp
 
-CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/code/cpp/-c-11/10.mobileSemantics_and_perfectForward.cpp > CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.i
+CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/e/code/cpp/-c-11/11.explicit_conversion_operator.cpp > CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.i
 
-CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/code/cpp/-c-11/10.mobileSemantics_and_perfectForward.cpp -o CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.s
+CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/e/code/cpp/-c-11/11.explicit_conversion_operator.cpp -o CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.s
 
 # Object files for target cpp11
 cpp11_OBJECTS = \
-"CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.o"
+"CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.o"
 
 # External object files for target cpp11
 cpp11_EXTERNAL_OBJECTS =
 
-cpp11: CMakeFiles/cpp11.dir/10.mobileSemantics_and_perfectForward.cpp.o
+cpp11: CMakeFiles/cpp11.dir/11.explicit_conversion_operator.cpp.o
 cpp11: CMakeFiles/cpp11.dir/build.make
 cpp11: CMakeFiles/cpp11.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/e/code/cpp/-c-11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp11"

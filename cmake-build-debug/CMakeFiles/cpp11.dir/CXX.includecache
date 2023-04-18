@@ -6,17 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/code/cpp/-c-11/10.mobileSemantics_and_perfectForward.cpp
-iostream
-/mnt/e/code/cpp/-c-11/iostream
-type_traits
-/mnt/e/code/cpp/-c-11/type_traits
+/mnt/e/code/cpp/-c-11/11.explicit_conversion_operator.cpp
 iostream
 -
-iostream
--
-utility
--
-iostream
-/mnt/e/code/cpp/-c-11/iostream
 
