@@ -7,7 +7,8 @@
 //#define initializer list test
 //#define use initializer list
 //#define use_initializer_list_inFuncLisat
-#define initializer_list_ret
+//#define initializer_list_ret
+#define initializer_list_type_narrow
 
 #ifdef initializer list test
 #include <vector>
@@ -145,6 +146,52 @@ vector<int>&& Func2() {return {1,2};}
 auto ini = {1,2,3,5};
 
 #endif
+
+
+#ifdef initializer_list_type_narrow
+
+const int x=1024;
+const int y=10;
+
+char a=x;//收窄，但可以通过编译
+char*b=new char(1024);//收窄，但可以通过编译
+//采用的是赋值表达符及圆括号
+//式的表达式初始化，所以虽然它们的数据类型明显收窄（char通常取
+//值范围为-128到127），却不会引发编译失败
+
+
+char c={x};//收窄，无法通过编译
+char d={y};//可以通过编译
+
+unsigned char e{-1};//收窄，无法通过编译
+float f{7};//可以通过编译,7在float类型中可以被表示
+int g{2.0f};//收窄，无法通过编译
+float*h=new float{1e48};//收窄，无法通过编译
+float i=1.2l;//可以通过编译，1.2在float类型中可以被表示
+
+//在C++11中，列表初始化是唯一一种可以防止类型收窄的初始化方式
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

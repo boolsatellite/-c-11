@@ -5,6 +5,10 @@ explicit conversion operator    显示转化操作符
 rational                        合理的
 valid                           有效的
 gender                          性别
+narrow                          狭窄的
+
+
+
 ```
 
 
