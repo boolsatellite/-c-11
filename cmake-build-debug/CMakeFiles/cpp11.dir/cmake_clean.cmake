@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/12.list_initialization.cpp.o"
+  "CMakeFiles/cpp11.dir/13.POD_type.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )

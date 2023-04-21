@@ -4,7 +4,7 @@ project(cpp11)
 add_compile_options(-fno-elide-constructors) #πÿ±’±‡“Î∆˜”≈ªØ
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp11  12.list_initialization.cpp)
+add_executable(cpp11 13.POD_type.cpp)
 
 
 

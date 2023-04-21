@@ -6,7 +6,9 @@ rational                        合理的
 valid                           有效的
 gender                          性别
 narrow                          狭窄的
-
+plain                           清楚的，明白的
+trvial                          平凡的
+layout                          布局
 
 
 ```

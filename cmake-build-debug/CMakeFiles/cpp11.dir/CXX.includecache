@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/mnt/e/code/cpp/-c-11/12.list_initialization.cpp
-vector
--
-map
--
-vector
--
-string
--
-initializer_list
--
-vector
-/mnt/e/code/cpp/-c-11/vector
+/mnt/e/code/cpp/-c-11/13.POD_type.cpp
 iostream
-/mnt/e/code/cpp/-c-11/iostream
+-
+type_traits
+-
 
