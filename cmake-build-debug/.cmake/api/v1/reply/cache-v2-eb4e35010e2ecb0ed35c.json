@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/e/code/cpp/-c-11/cmake-build-debug"
+			"value" : "/mnt/e/github/-c-11/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/e/code/cpp/-c-11"
+			"value" : "/mnt/e/github/-c-11"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/e/code/cpp/-c-11/cmake-build-debug"
+			"value" : "/mnt/e/github/-c-11/cmake-build-debug"
 		},
 		{
 			"name" : "cpp11_SOURCE_DIR",
@@ -1259,7 +1259,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/e/code/cpp/-c-11"
+			"value" : "/mnt/e/github/-c-11"
 		}
 	],
 	"kind" : "cache",

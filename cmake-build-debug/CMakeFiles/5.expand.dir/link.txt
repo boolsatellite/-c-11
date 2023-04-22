@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/5.expand.dir/5.expand.cpp.o  -o 5.expand 

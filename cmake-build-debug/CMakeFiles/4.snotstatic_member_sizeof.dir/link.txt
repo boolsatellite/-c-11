@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/4.snotstatic_member_sizeof.dir/4.snotstatic_member_sizeof.cpp.o CMakeFiles/4.snotstatic_member_sizeof.dir/expend_friend.cpp.o  -o 4.snotstatic_member_sizeof 

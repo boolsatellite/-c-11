@@ -9,6 +9,7 @@ narrow                          狭窄的
 plain                           清楚的，明白的
 trvial                          平凡的
 layout                          布局
+placement                       放置
 
 
 ```

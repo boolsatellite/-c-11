@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cpp11::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cpp11-Debug-c563f2be66c38182fc46.json",
+					"jsonFile" : "target-cpp11-Debug-f00ac33171c8f6727da9.json",
 					"name" : "cpp11",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/mnt/e/code/cpp/-c-11/cmake-build-debug",
-		"source" : "/mnt/e/code/cpp/-c-11"
+		"build" : "/mnt/e/github/-c-11/cmake-build-debug",
+		"source" : "/mnt/e/github/-c-11"
 	},
 	"version" : 
 	{
