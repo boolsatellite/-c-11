@@ -73,7 +73,7 @@ struct RGBA {
             r(R), g(G), b(B), a(A) {}
 };
 
-RGBA operator ""_C(const char *col, size_t n) {//一个长度为n的字符串col
+RGBA operator ""_C(const char *col, size_t n) {//一个长度为n的字符串col,n的长度由编译器提供
     const char *p = col;
     const char *end = col + n;
     const char *r, *g, *b, *a;
