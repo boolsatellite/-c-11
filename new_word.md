@@ -20,6 +20,7 @@ strorage                        存储
 specifier                       说明符，指定符
 derive                          派生，推导
 traits                          特性
+garbage                         垃圾
 
 
 ```
