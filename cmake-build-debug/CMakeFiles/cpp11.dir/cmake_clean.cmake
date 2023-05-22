@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp11.dir/28.control_defaultFunc.cpp.o"
+  "CMakeFiles/cpp11.dir/29.lambda.cpp.o"
   "cpp11"
   "cpp11.pdb"
 )

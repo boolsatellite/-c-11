@@ -4,7 +4,7 @@ project(cpp11)
 add_compile_options(-fno-elide-constructors) #关闭编译器优化
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp11 28.control_defaultFunc.cpp)
+add_executable(cpp11 29.lambda.cpp)
 
 
 # 遍历项目根目录下所有的 .cpp 文件
