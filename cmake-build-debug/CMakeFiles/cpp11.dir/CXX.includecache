@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/github/-c-11/31.general_properties_unicode.cpp
+iostream
+-
+iostream
+-
+iostream
+-
+cuchar
+-
+iostream
+-
+locale
+-
+iostream
+-
+fstream
+-
+string
+-
+locale
+-
+iomanip
+-
+iostream
+-
+

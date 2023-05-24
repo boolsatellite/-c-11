@@ -21,6 +21,9 @@ specifier                       说明符，指定符
 derive                          派生，推导
 traits                          特性
 garbage                         垃圾
+alignof                         对齐方式
+align                           对齐
+align as                        对齐为
 
 
 ```
